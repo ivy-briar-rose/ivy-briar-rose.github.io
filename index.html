@@ -1,16 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
+	<link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-exp.min.css">
+	<link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-icons.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
-<!doctype html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width,initial-scale=1">
-		<title>Ivy Briar Rose</title>
-	</head>
-	<body>
-		<h1>Hej! :)</h1>
+	<title>ACAB</title>
+</head>
+<body>
 
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-		<script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
-	</body>
 
+	<div class="container">
+
+		<!-- HOME PAGE -->
+			<div class="columns">
+				<div class="column col-1">
+				</div><!-- .column .col-1 -->
+				<div class="column col-11">
+
+				<header class="navbar">
+
+					<!-- ***********************************
+					     IF WINDOW > 600px NAVBAR IS
+					     HORIZONTAL
+
+					     hide-sm:
+					     	Display only when
+					     	window is > 600px wide
+					     ******************************* -->
+
+					<!-- ***********************************
+						 navbar-section:
+							Distributes evenly in container
+					     ******************************* -->
+					<div class="navbar-section hide-sm">
+						<a href="#" class="navbar-brand">Ivy Briar Rose</a>
+					</div>
+					<div class="navbar-section hide-sm">
+						<a  href="#" class="btn btn-link">About</a>
+						<a  href="#" class="btn btn-link">Contact</a>
+						<a  href="#" class="btn btn-link">FAQ</a>
+					</div>
+
+					<!-- ***********************************
+					     IF WINDOW <= 600px WIDE GO VERTICAL
+
+					     show-sm:
+					    	Display only when
+					    	window is <= 600px wide
+					     ******************************* -->
+					<ul class="nav show-sm">
+						<li class="menu-item">
+							<a  href="#" class="btn btn-link selected">Home</a>
+						</li>
+						<li class="menu-item">
+							<a  href="#" class="btn btn-link">About</a>
+						</li>
+						<li class="menu-item">
+							<a  href="#" class="btn btn-link">Contact</a>
+						</li>
+						<li class="menu-item">
+							<a  href="#" class="btn btn-link">FAQ</a>
+						</li>
+					</ul>
+
+
+				</header><!-- .navbar -->
+
+				</div><!-- .column .col-11 -->
+			</div><!-- .columns -->
+
+			<div class="columns"  >
+				<div class="column col-1 col-sm-1">
+				</div><!-- .column col-1 -->
+				<div class="column col-5 col-sm-5">
+					<article>
+						<h1 class="massive big-top-margin animate__animated animate__fadeInLeft">ACAB <br>
+						<span class="bold-statement">All Cats Are Beautiful.</span></h1>
+						<header>
+						</header>
+						<section class="questo">
+							<h2>There are two means of refuge from the misery of life — music and cats.</h2>
+							<p class="massive">Here's what needs to be done.</p>
+							<ul class="massive">
+								<li>A meow massages the heart</li>
+								<li>Time spent with cats is never wasted.</li>
+								<li>Never trust a man who hates cats.</li>
+							</ul>
+						</section>
+					</article>
+				</div><!-- column col-6 -->
+				<div class="column col-4 col-sm-12  questo">
+					<p  class="column col-4 big-top-margin">&nbsp;</p>
+					<img src="images/cat.svg" alt="Cute Cat" width="500" height="500" class="my-bounce" >
+					<p  class="massive text-center">You need a
+					<span class="warning">cat talent</span> on the job.</p>
+
+				</div><!-- .column col-4 -->
+			</div><!-- .columns -->
+
+
+	</div><!-- .container -->
+
+
+</body>
 </html>
